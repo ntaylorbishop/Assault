@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp" />
+    <ClCompile Include="TheApp.cpp" />
+    <ClCompile Include="TheGame.cpp" />
+    <ClCompile Include="Camera2D.cpp" />
+    <ClCompile Include="Raycast2D.cpp" />
+    <ClCompile Include="SpriteAnim.cpp" />
+    <ClCompile Include="PlayerTank.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTurret.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTank.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDefinition.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TheWorld.cpp" />
+    <ClCompile Include="TheUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheGame.hpp" />
+    <ClInclude Include="TheApp.hpp" />
+    <ClInclude Include="Camera2D.hpp" />
+    <ClInclude Include="Raycast2D.hpp" />
+    <ClInclude Include="SpriteAnim.hpp" />
+    <ClInclude Include="PlayerTank.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTurret.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTank.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDefinition.hpp">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TheWorld.hpp" />
+    <ClInclude Include="TheUI.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{624ba7aa-a236-42d0-99ab-985a1a988edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{223540a7-e2dc-47c4-82bd-3c685f6ce047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{223733e5-6739-43fa-903a-1e247c8227b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run_Win32\Data\Images\Bullet2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\Explosion_5x5.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\Grass.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\Stone.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\Tank.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\Test_OpenGL.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\Test_StbiAndDirectX.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\Turret.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\Tank2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\PlayerTank.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\Data\Images\Tile_Spritesheet.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
